@@ -1,0 +1,35 @@
+<VRTDataset rasterXSize="254" rasterYSize="144">
+    <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["unnamed",GEOGCS["unnamed ellipse",DATUM["unknown",SPHEROID["unnamed",6371007.181,0]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Sinusoidal"],PARAMETER["longitude_of_center",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]</SRS>
+    <GeoTransform>-6.0735879580000006e+006, 2.3165599999999935e+002, 0.0000000000000000e+000,-1.2787256399999999e+006, 0.0000000000000000e+000,-2.3165600000000106e+002</GeoTransform>
+    <VRTRasterBand dataType="UInt16" band="1" subClass="VRTDerivedRasterBand">
+        <PixelFunctionType>MyFirstFunction</PixelFunctionType>
+        <ComplexSource>
+            <SourceFilename relativeToVRT="1">EVI_2013-09-14.jp2</SourceFilename>
+            <SourceBand>1</SourceBand>
+            <SourceProperties RasterXSize="254" RasterYSize="144" DataType="UInt16" BlockXSize="254" BlockYSize="144" />
+            <SrcRect xOff="0" yOff="0" xSize="254" ySize="144" />
+            <DstRect xOff="0" yOff="0" xSize="254" ySize="144" />
+        </ComplexSource>
+        <ComplexSource>
+            <SourceFilename relativeToVRT="1">EVI_2013-09-30.jp2</SourceFilename>
+            <SourceBand>1</SourceBand>
+            <SourceProperties RasterXSize="254" RasterYSize="144" DataType="UInt16" BlockXSize="254" BlockYSize="144" />
+            <SrcRect xOff="0" yOff="0" xSize="254" ySize="144" />
+            <DstRect xOff="0" yOff="0" xSize="254" ySize="144" />
+        </ComplexSource>
+        <ComplexSource>
+            <SourceFilename relativeToVRT="1">EVI_2013-10-16.jp2</SourceFilename>
+            <SourceBand>1</SourceBand>
+            <SourceProperties RasterXSize="254" RasterYSize="144" DataType="UInt16" BlockXSize="254" BlockYSize="144" />
+            <SrcRect xOff="0" yOff="0" xSize="254" ySize="144" />
+            <DstRect xOff="0" yOff="0" xSize="254" ySize="144" />
+        </ComplexSource>
+        <ComplexSource>
+            <SourceFilename relativeToVRT="1">EVI_2013-11-01.jp2</SourceFilename>
+            <SourceBand>1</SourceBand>
+            <SourceProperties RasterXSize="254" RasterYSize="144" DataType="UInt16" BlockXSize="254" BlockYSize="144" />
+            <SrcRect xOff="0" yOff="0" xSize="254" ySize="144" />
+            <DstRect xOff="0" yOff="0" xSize="254" ySize="144" />
+        </ComplexSource>
+    </VRTRasterBand>
+</VRTDataset>
